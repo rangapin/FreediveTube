@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #pageContainer {
   width: 100%;
   height: 100%;
@@ -20,9 +24,69 @@ body {
   padding-top: 7px 16px;
   box-sizing: border-box;
   border-bottom: 1px solid blue;
+  background-color: lightcyan;
   z-index: 1;
   display: flex;
   align-items: center;
+}
+
+#headContainer button,
+#headContainer .rightIcon img {
+  cursor: pointer;
+  padding: 8px;
+  margin: 0px;
+  height: 44px;
+  width: 44px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+#headContainer button img {
+  width: 100%;
+}
+
+#headContainer .logoContainer {
+  width: 150px;
+}
+
+#headContainer .logoContainer img {
+  height: 300px;
+  padding-left: 100px;
+}
+
+#headContainer .searchBarContainer {
+  margin:0 200px;
+  flex: 1;
+  display: flex;
+}
+
+#headContainer .searchBarContainer form {
+  flex: 1;
+  display: flex;
+  padding-top: 4px;
+}
+
+#headContainer .searchBarContainer .searchBar {
+ flex: 1;
+ max-width:800px;
+ color: white;
+ padding: 4px 8px;
+ margin-left: 144px;
+ font-size: 14px;
+ font-weight: 100;
+ border: 3px solid aqua;
+ border-radius: 50px;
+ height: 32px;
+ box-shadow: cyan 0px 1px -1px inset;
+}
+
+#headContainer .searchBarContainer .searchButton {
+ height: 16px;
+ background-color: transparent;
+ cursor: pointer;
+ width: 44px;
+ padding-top: 4px;
 }
 
 #sideContainer {
@@ -36,4 +100,26 @@ body {
   flex-direction: column;
 }
 
+#mainSectionContainer {
+  display: block;
+}
+
+#mainSectionContainer.leftPadding {
+ padding-left: 244px;
+}
+
+#mainContentContainer {
+  padding: 10px 30px;
+  display: flex;
+  flex: 1;
+}
+
+.column {
+  flex: 1;
+  background-color: lightskyblue;
+  min-height: 600px;
+  padding: 44px;
+  margin-top: 100px;
+  border: 3px solid skyblue;
+}
 
