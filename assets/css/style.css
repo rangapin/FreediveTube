@@ -123,3 +123,24 @@ a:hover {
   border: 3px solid skyblue;
 }
 
+.signInContainer {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInContainer .column .header img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.signInContainer .column {
+    flex-grow: 1;
+    width: 450px;
+    padding: 20px 35px;
+    max-height: 100%;
+    overflow-y: auto;
+}
