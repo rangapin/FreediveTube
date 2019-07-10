@@ -1,18 +1,24 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-  $(".navShowHide").on("click", function() {
-    var main = $("#mainSectionContainer");
-    var nav = $("#sideContainer");
+    $(".navShowHide").on("click", function() {
 
-    if(main.hasClass("leftPadding")) {
-      nav.hide();
-    }
-    else {
-      nav.show();
-    }
+        var main = $("#mainSectionContainer");
+        var nav = $("#sideNavContainer");
 
-    main.toggleClass("leftPadding");
-  });
+        if(main.hasClass("leftPadding")) {
+            nav.hide();
+        }
+        else {
+            nav.show();
+        }
+
+        main.toggleClass("leftPadding");
+
+    });
 
 });
+
+function notSignedIn() {
+    alert("You must be signed in to perform this action");
+}
 
