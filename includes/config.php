@@ -2,7 +2,7 @@
 ob_start(); //Turns on output buffering
 session_start();
 
-date_default_timezone_set("Asia/Bangkok");
+date_default_timezone_set("Europe/Prague");
 
 try {
     $con = new PDO("mysql:dbname=FreediveTube;host=localhost", "root", "");
