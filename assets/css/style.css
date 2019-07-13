@@ -50,11 +50,12 @@ a:hover {
 }
 
 #mastHeadContainer .logoContainer {
-    width: 100px;
+    width: 500px;
 }
 
 #mastHeadContainer .logoContainer img {
-    height: 25px;
+    height: 188px;
+    width: 500px;
     margin-left: 8px;
 }
 
@@ -144,7 +145,9 @@ a:hover {
 }
 
 .signInContainer .column .header img {
-    width: 100px;
+    width: 244px;
+    height: 200px;
+    margin-left: 66px;
 }
 
 .signInContainer .column {
@@ -168,9 +171,6 @@ a:hover {
     padding-top: 16px;
 }
 
-.signInContainer .column .header span {
-    font-size: 14px;
-}
 
 .signInContainer .column .loginForm {
     padding-top: 24px;
@@ -198,7 +198,7 @@ a:hover {
     border: none;
     border-radius: 3px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 44px;
     margin-bottom: 20px;
 }
 
@@ -780,4 +780,51 @@ a:hover {
     color: rgba(17,17,17,0.6);
     display: flex;
     flex-direction: column;
+}
+
+.formSection:not(:last-child) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dedede
+}
+
+.settingsContainer form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editVideoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.editVideoContainer .topSection {
+    display: flex;
+}
+
+.topSection .videoPlayer {
+   max-height: 300px;
+   flex: 1;
+}
+
+.editVideoContainer .topSection .thumbnailItemsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    width: 210px;
+}
+
+.editVideoContainer .topSection .thumbnailItemsContainer .thumbnailItem {
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.editVideoContainer .topSection .thumbnailItemsContainer .thumbnailItem.selected {
+border: 3px solid #828282;
+}
+
+.editVideoContainer .topSection .thumbnailItemsContainer .thumbnailItem img {
+    width: 100%;
+    cursor: pointer;
 }

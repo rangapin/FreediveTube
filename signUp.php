@@ -56,7 +56,6 @@ function getInputValue($name) {
             <div class="header">
                 <img src="assets/images/icons/logo.png" title="logo" alt="Site logo">
                 <h3>Sign Up</h3>
-                <span>to continue to FreediveTube</span>
             </div>
 
             <div class="loginForm">
