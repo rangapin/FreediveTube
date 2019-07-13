@@ -37,7 +37,7 @@ function getInputValue($name) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>VideoTube</title>
+    <title>FreediveTube</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -54,9 +54,9 @@ function getInputValue($name) {
         <div class="column">
 
             <div class="header">
-                <img src="assets/images/icons/VideoTubeLogo.png" title="logo" alt="Site logo">
+                <img src="assets/images/icons/logo.png" title="logo" alt="Site logo">
                 <h3>Sign Up</h3>
-                <span>to continue to VideoTube</span>
+                <span>to continue to FreediveTube</span>
             </div>
 
             <div class="loginForm">
@@ -85,7 +85,7 @@ function getInputValue($name) {
                 <input type="password" name="password" placeholder="Password" autocomplete="off" required>
                 <input type="password" name="password2" placeholder="Confirm password" autocomplete="off" required>
 
-                <input type="submit" name="submitButton" value="SUBMIT">
+                <input type="submit" class="btn btn-primary" name="submitButton" value="SUBMIT">
 
 
                 </form>
