@@ -75,7 +75,7 @@ class ButtonProvider {
         }
         else {
             return "<a href='signIn.php'>
-                        <span class='signInLink'>SIGN IN</span>
+                        <span class='btn btn-primary'>SIGN IN</span>
                     </a>";
         }
     }
