@@ -32,11 +32,11 @@ a:hover {
 
 #mastHeadContainer button:not(.searchButton),
 #mastHeadContainer .rightIcons img {
+    display: flex;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
     padding: 8px;
-    margin-right: 8px;
     box-sizing: border-box;
     border: none;
     background-color: transparent;
@@ -44,6 +44,7 @@ a:hover {
 
 #mastHeadContainer .rightIcons {
     height: 100%;
+    display: flex;
 }
 
 #mastHeadContainer button img {
@@ -51,13 +52,12 @@ a:hover {
 }
 
 #mastHeadContainer .logoContainer {
-    width: 500px;
+    max-width: 500px;
 }
 
 #mastHeadContainer .logoContainer img {
     height: 188px;
     width: 500px;
-    margin-left: 8px;
 }
 
 #sideNavContainer {
