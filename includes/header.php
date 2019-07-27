@@ -25,6 +25,7 @@ $userLoggedInObj = new User($con, $usernameLoggedIn);
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/js/commonActions.js"></script>
     <script src="assets/js/userActions.js"></script>
+    <meta name="description" content="Submerged yourself into your favorite underwater videos. Welcome to FreediveTube!">
 
 </head>
 <body>
@@ -40,7 +41,7 @@ $userLoggedInObj = new User($con, $usernameLoggedIn);
                 <img src="assets/images/icons/newlogo.png" alt="Site logo">
             </a>
 
-            <div class="searchBarContainer">
+            <div class="sm searchBarContainer">
                 <form action="search.php" method="GET">
                     <input type="text" class="searchBar" name="term" placeholder="Search...">
                     <button class="searchButton">
@@ -49,7 +50,7 @@ $userLoggedInObj = new User($con, $usernameLoggedIn);
                 </form>
             </div>
 
-            <div class="sm rightIcons">
+            <div class="lg rightIcons">
                 <a href="upload.php">
                     <img class="upload" src="assets/images/icons/upload.png">
                 </a>
